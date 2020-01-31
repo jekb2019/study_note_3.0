@@ -1,0 +1,122 @@
+body{
+  margin:0;
+}
+.content, .right_sidebar, footer{
+  border:1px solid lightgrey;
+}
+.left_sidebar, .right_sidebar{
+  padding: 20px;
+  margin:20px;
+}
+#title{
+  text-align: center;
+  padding-top:40px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+#subtitle{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+
+  text-align: center;
+}
+.menu_nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 50px;
+  overflow: hidden;
+  background-color: lightgrey;
+}
+.menu_nav li{
+  float: left;
+}
+.menu_nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  padding-right: 30px; 
+  text-decoration: none;
+}
+.menu_nav li a:hover{
+  background-color: grey;
+}
+.left_sidebar h3{
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+.submenu li a{
+  text-decoration: none;
+  color: black;
+}
+.submenu li{
+  margin-bottom: 10px;
+}
+.left_sidebar{
+  float: left;
+  width: 120px;
+}
+.left_sidebar ul{
+  padding-left: 30px;
+  list-style: circle;
+}
+.left_sidebar li:hover{
+  font-weight: bold;
+}
+.content{
+  margin: 20px auto;
+  padding: 20px;
+  width: 65%;
+}
+.right_sidebar{
+  float: right;
+  width: 100px;
+  height: 700px;
+}
+#advertisement{
+  text-align: center;
+}
+footer{
+  clear: both;
+  padding: 20px;
+  background: lightgrey;
+}
+.footer_container{
+  height: 150px;
+  width: 935px;
+  margin: auto;
+}
+.footer_container a{
+  text-decoration: none;
+  color: black;
+}
+.footer_container a:hover{
+  color: white;
+}
+.footer_container dt{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer_container dd{
+  margin-left: 10px;
+}
+.footer_container dl{
+  display: inline-block;
+}
+.information, .contact, .author_SNS, .help{
+  width: 180px;
+  float: left;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#copyright{
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding:0;
+  text-align: center;
+}
+#terms{
+  color: black;
+}
