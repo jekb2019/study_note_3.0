@@ -42,6 +42,9 @@
 .subject_box:hover{
   transform: scale(1.2);
 }
+.subject_box:active{
+  border: 1px solid red;
+}
 .subject_box h2{
   font-size: 1em;
   text-align: center;
