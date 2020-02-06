@@ -49,11 +49,19 @@
         <article>
           <h1>
             <?php
-              echo $_GET['subject'];
+              if(isset($_GET['subject'])){
+                echo $_GET['subject'];
+              }else{
+                echo "Welcome";
+              }
              ?>
           </h1>
           <?php
-            echo file_get_contents("data/".$_GET['subject']);
+            if(isset($_GET['subject'])){
+              echo file_get_contents("data/".$_GET['subject']);
+            }else{
+              echo "Study Note. The perfect time to study programming.";
+            }
            ?>
         </article>
       </section>
